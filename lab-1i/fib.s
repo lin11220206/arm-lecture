@@ -13,8 +13,7 @@ fibonacci:
 	@ PROLOG
 	push {r3, r4, r5, r6, lr}
 	@R3 = -1
-	mov r3, #0
-	subs r3, r3, #1
+	mov r3, #0xffffffff
 	@R4 = 1
 	mov r4, #1
 	@R5 = 0
